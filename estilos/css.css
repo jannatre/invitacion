@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Madilet';
-    src: url('fonts/Madilet\ demo.ttf');
+    src: url('fonts/Madilet\demo.ttf');
 }
 
 *{
@@ -10,7 +10,7 @@
 }
 
 body{
-    background-image: url('img/fondo.JPG');
+    background-image: url('img/fondo.jpg');
    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
