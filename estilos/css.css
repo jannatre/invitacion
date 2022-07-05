@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Madilet';
-    src: url('fonts/Madiletdemo.ttf');
+    src: url('fonts/Madilet demo.ttf');
 }
 :root{
     --letras: radial-gradient(circle at 50% -20.71%, #92a766 0, #89a96b 5%, #7faa71 10%, #75ac78 15%, #6aad7f 20%, #5fae87 25%, #54af90 30%, #48b098 35%, #3cb0a1 40%, #2fb0aa 45%, #22b0b2 50%, #16b0ba 55%, #0fafc2 60%, #15aec9 65%, #22adcf 70%, #31abd4 75%, #40a9d8 80%, #4fa7dc 85%, #5fa5de 90%, #6da3df 95%, #7ca0de 100%);
