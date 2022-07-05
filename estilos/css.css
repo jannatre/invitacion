@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Madilet';
+    src: url('/fonts/Madilet\ demo.ttf');
+}
+:root{
+    --letras: radial-gradient(circle at 50% -20.71%, #92a766 0, #89a96b 5%, #7faa71 10%, #75ac78 15%, #6aad7f 20%, #5fae87 25%, #54af90 30%, #48b098 35%, #3cb0a1 40%, #2fb0aa 45%, #22b0b2 50%, #16b0ba 55%, #0fafc2 60%, #15aec9 65%, #22adcf 70%, #31abd4 75%, #40a9d8 80%, #4fa7dc 85%, #5fa5de 90%, #6da3df 95%, #7ca0de 100%);
+}
+*{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body{
+    background-image: url('/img/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Madilet';
+
+}
+
+.foto-aranza{
+    margin: 0 auto;
+    width: 350px;
+}
+
+a{
+    
+    color: black;
+}
+
+h1{
+    font-family: 'Madilet';
+    font-size: 76px;
+    padding-top: 1em;
+    color: transparent;
+    text-shadow: 0px 0px 5px #F282D0;
+    -webkit-text-stroke: 1px #ED50BD;
+    letter-spacing: 8px;
+}
+
+.fecha span{
+    -webkit-text-stroke: 1px rgb(231, 28, 250);
+    color:#F7B5E3;
+    font-size: 65px;
+    text-shadow: 2px 2px 6px #fff;
+}
+
+.fecha{
+    -webkit-text-stroke: 1px #000;
+    font-size: 60px;
+    color: rgb(231, 28, 250);
+    text-shadow: 2px 2px 6px #fff;
+}
+
+.asistencia{
+    -webkit-text-stroke: 1px #000;
+    color: red;
+    font-size: 38px;
+    text-shadow: 2px 2px 10px  #fff
+}
+.ubicacion{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ubicacion h2{
+    font-size: 38px;
+    color: #fff;
+    text-shadow: 2px 2px 6px #000;
+}
+
+.ubicacion a{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 2px 2px 6px #000; ;
+}
+
+.map{
+    margin: 0 auto;
+    padding: 1em 0 0 0;
+    width:400px;
+    height: 200px;
+}
+
+.mirabel{
+    width: 125px;
+    height: 300px;
+    position: absolute;
+    right: 47em;
+    top:11em;
+}
+
+@media(max-width:480px){
+    .map{
+        margin: 0 auto;
+        padding: 1em 0 0 0;
+        width:250px;
+        height: 150px;
+    }
+
+    .fecha{
+        font-size: 36px;
+        
+    }
+    .asistencia{
+        font-size: 27px;
+    }
+
+    .ubicacion a{
+        font-size: 16px;
+    }
+
+    .mirabel{
+        width: 125px;
+        height: 300px;
+        position: absolute;
+        right: 16em;
+        top:11em;
+    }
+}
